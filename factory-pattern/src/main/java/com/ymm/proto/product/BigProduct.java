@@ -1,4 +1,4 @@
-package com.ymm.product;
+package com.ymm.proto.product;
 
 /**
  * @Author: ymm

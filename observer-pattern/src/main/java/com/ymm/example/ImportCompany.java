@@ -6,5 +6,13 @@ package com.ymm.example;
  * @Description:
  *
  */
-public class ImportCompany {
+public class ImportCompany extends Company {
+	@Override
+	public void response(int rate) {
+		if(rate < 0){
+			System.out.println("进口公司哭了");
+		}else {
+			System.out.println("进口公司笑了");
+		}
+	}
 }

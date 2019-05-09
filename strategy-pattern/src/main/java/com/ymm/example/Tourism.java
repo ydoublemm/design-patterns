@@ -1,4 +1,4 @@
-package com.ymm;
+package com.ymm.example;
 
 import lombok.Data;
 

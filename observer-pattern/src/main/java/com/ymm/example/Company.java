@@ -6,5 +6,6 @@ package com.ymm.example;
  * @Description:
  *
  */
-public class Complany {
+public abstract class Company {
+	public abstract void response( int rate);
 }

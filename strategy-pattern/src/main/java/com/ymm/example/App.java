@@ -1,4 +1,4 @@
-package com.ymm;
+package com.ymm.example;
 
 /**
  * 策略设计模式示例

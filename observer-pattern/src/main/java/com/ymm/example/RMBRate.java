@@ -6,5 +6,12 @@ package com.ymm.example;
  * @Description:
  *
  */
-public class RMBRate {
+public class RMBRate extends Rete{
+
+	@Override
+	public void change(int rate) {
+		for (Company company : super.companyList) {
+			company.response(rate);
+		}
+	}
 }

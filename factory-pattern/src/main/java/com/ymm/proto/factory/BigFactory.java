@@ -1,7 +1,7 @@
-package com.ymm.factory;
+package com.ymm.proto.factory;
 
-import com.ymm.product.BigProduct;
-import com.ymm.product.Product;
+import com.ymm.proto.product.BigProduct;
+import com.ymm.proto.product.Product;
 
 /**
  * @Author: ymm

@@ -1,4 +1,4 @@
-package com.ymm;
+package com.ymm.proto;
 
 import java.util.LinkedList;
 import java.util.List;

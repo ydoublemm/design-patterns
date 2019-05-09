@@ -1,7 +1,7 @@
-package com.ymm;
+package com.ymm.proto;
 
-import com.ymm.factory.BigFactory;
-import com.ymm.factory.SmallFactory;
+import com.ymm.proto.factory.BigFactory;
+import com.ymm.proto.factory.SmallFactory;
 
 /**
  * Hello world!
