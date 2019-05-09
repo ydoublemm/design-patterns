@@ -6,9 +6,9 @@ package com.ymm;
  * @Description:
  *
  */
-public class ContreteObserver1 extends Observer {
+public class ContreteObserver2 extends Observer {
 	@Override
 	public void response() {
-		System.out.println("观察者1收到通知");
+		System.out.println("观察者2收到通知");
 	}
 }

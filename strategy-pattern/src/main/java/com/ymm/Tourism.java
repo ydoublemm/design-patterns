@@ -9,6 +9,7 @@ import lombok.Data;
  */
 @Data
 public class Tourism {
+
     private Transportation transportation;
 
     public void gogogo(){

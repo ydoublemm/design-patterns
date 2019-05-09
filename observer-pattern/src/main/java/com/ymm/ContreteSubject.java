@@ -6,5 +6,14 @@ package com.ymm;
  * @Description:
  *
  */
-public class ContreteSubject {
+public class ContreteSubject extends Subject{
+
+	@Override
+	public void notifyObservers() {
+		this.observerList.forEach(
+				observer -> {
+					observer.response();
+				}
+		);
+	}
 }

@@ -6,5 +6,7 @@ package com.ymm;
  * @Description:
  *
  */
-public class Observer {
+//抽象观察者
+public abstract class Observer {
+	public abstract void response();
 }
