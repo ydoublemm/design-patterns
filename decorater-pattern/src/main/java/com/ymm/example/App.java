@@ -1,15 +1,18 @@
 package com.ymm.example;
 
 /**
- * Hello world!
- *
+ * Created by yemingming on 2019-11-04.
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        Component component = new ConcreteComponent();
-        Decortater decortater = new ContreteDecortater(component);
-        decortater.operation();
-    }
+public class App {
+
+	public static void main(String[] args) {
+		Phone iphone  = new IPhoneX();
+
+		PhoneDecorate phone = new MusicPhone(iphone);
+
+		phone = new GiveTimePhone(phone);
+
+		phone.call();
+
+	}
 }

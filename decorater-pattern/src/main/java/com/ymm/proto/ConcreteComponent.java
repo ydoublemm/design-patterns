@@ -1,4 +1,4 @@
-package com.ymm.example;
+package com.ymm.proto;
 
 /**
  * @Author: ymm

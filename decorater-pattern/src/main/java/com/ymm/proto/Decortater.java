@@ -1,9 +1,9 @@
-package com.ymm.example;
+package com.ymm.proto;
 
 /**
  * @Author: ymm
  * @Date: 2019/5/9 23:46
- * @Description:抽象观察角色
+ * @Description:
  */
 public class Decortater implements Component {
     private Component component;
@@ -15,6 +15,6 @@ public class Decortater implements Component {
 
     @Override
     public void operation() {
-        this.component.operation();
+        component.operation();
     }
 }

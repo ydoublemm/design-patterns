@@ -1,9 +1,9 @@
-package com.ymm.example;
+package com.ymm.proto;
 
 /**
  * @Author: ymm
  * @Date: 2019/5/9 23:51
- * @Description:具体观察角色
+ * @Description:
  */
 public class ContreteDecortater extends Decortater {
 
@@ -15,6 +15,6 @@ public class ContreteDecortater extends Decortater {
     @Override
     public void operation() {
         super.operation();
-        System.out.println("增强方法..");
+        System.out.println("增强方法..1");
     }
 }
